@@ -1,0 +1,3 @@
+###Instalar programas .run:
+chmod +x some-app.run
+./some-app.run
