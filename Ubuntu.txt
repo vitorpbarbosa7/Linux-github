@@ -1,3 +1,8 @@
 ###Instalar programas .run:
 chmod +x some-app.run
 ./some-app.run
+
+###tasksel gerencia as tarefas de instalação de pacotes
+
+###Screen off:
+xset -display :0.0 dmps force off
