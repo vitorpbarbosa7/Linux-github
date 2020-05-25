@@ -1,0 +1,10 @@
+Arquivo 2
+
+hd
+
+foo
+
+bar
+
+tar
+

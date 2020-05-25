@@ -1,0 +1,6 @@
+find ~/Downloads/ -name *Ana #Procurar por algum arquivo que contenha anaconda no início do nome
+
+find ~ -name *.txt #Procurar por qualquer arquivo que contenha txt no final do nome no diretŕio ~ ( que é a home)
+
+grep something a.txt #Para procurar algum a palavra something no arquivo a.txt 
+

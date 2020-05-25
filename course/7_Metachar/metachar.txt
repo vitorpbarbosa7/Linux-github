@@ -1,0 +1,5 @@
+ls arquivo[13].txt #Mostrar todo arquivo que tenha 1 ou 3 ali no meio. No caso ele vai retornar arquivo1.txt e arquivo2.txt
+
+ls arquivo[12][34].txt Retorna arquivo13.txt arquivo14.txt arquivo23.txt arquivo24.txt
+
+ls arquivo[1-4].txt Retornar arquivo1.txt arquivo2.txt arquivo3.txt arquivo4.txt 

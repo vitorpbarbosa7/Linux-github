@@ -1,0 +1,14 @@
+
+Ao executar ls -F ou ls --classify será mostrado um caracter ao final de cada arquivo. Este caracter indica que tipo de arquivo é aquele
+
+* arquivo executável, binário
+
+/ ao final, por exemplo etc/ significa que é um diretório
+
+@ significa que é um link 
+
+~ significa que ele é um arquivo de backup
+
+= significa que ele é um socket
+
+| significa que ele é um pipe

@@ -1,8 +1,20 @@
 ###Instalar programas .run:
-chmod +x some-app.run
-./some-app.run
+chmod +x some-app.run #Isto muda o modo de execução do programa
+./some-app.run #Isto literalmente abre o .run
+
+###Instalar arquivos .deb
+%Using debian package: sudo dpkg -i /path/to/deb/file
+%using sudo-apt install -f
+or 
+%using sudo apt install ./name.deb
+
+-- Toda vez que quiser abrir um executable file se utiliza: ./executable-file
 
 ###tasksel gerencia as tarefas de instalação de pacotes
 
 ###Screen off:
 xset -display :0.0 dmps force off
+
+%%%Diretórios:
+/sbin/ : Onde estão os diretórios administrativos do sistema. Estes só podem ser executados no modo root
+
