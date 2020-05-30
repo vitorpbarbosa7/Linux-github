@@ -18,3 +18,43 @@ xset -display :0.0 dmps force off
 %%%Diretórios:
 /sbin/ : Onde estão os diretórios administrativos do sistema. Estes só podem ser executados no modo root
 
+%%%Permissões:
+
+Octais:
+0 : - - - 
+1 : - - x
+2 : - w -
+3 : - w x
+4 : r - - 
+5 : r - x
+6 : r w - 
+7 : r w x
+
+Mudar permissão de arquivo:
+chmod 740 file
+chmod -R 740 diretorio #Muda as permissões de tudo dentro do diretório também
+
+#--- Bizu ---
+R = 4 fa
+W = 2
+X = 1
+
+%%%Date and time:
+sudo apt-get install ntpdate
+sudo date MMDDHHmmAAAA #How to change time and date
+ntpdate
+sudo hwclock 
+sudo nptdate -u br.pool.ntp.org
+
+#Comando cal: (Calendário)
+
+%%%Paginação:
+tac log.txt | more #Ótimo comando para a análise de log 
+
+grep : GLOBAL REGULAR EXPRESSION AND PRINT
+
+grep -w "the" #Shows only the words the isolatedre
+
+#Count the ocurrences of the word "the" in the file "long"
+grep -w the long | wc -l
+

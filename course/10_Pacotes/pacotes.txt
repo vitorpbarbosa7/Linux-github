@@ -1,0 +1,16 @@
+## Vai até o arquivo em /etc/apt/sources.list, consulta todos os links de repositórios configurados e a partir deles realiza o update de quais são os pacotes disponíveis para instalar através deste gerenciador de pacotes
+
+apt-get update 
+
+## Realiza de fato o upgrade, a atualização de todos pacotes
+
+apt-get upgrade
+
+##Apaga os arquivos de download de instalação dos arquivos que foram desinstalados
+
+apt-get autoclean
+
+##Apaga os arquivos de download de instalação dos arquivos baixados
+##ELe vai até /var/cache/apt/archives e apaga tudo
+##Quando apaguei do meu lá estava google-chrome-stable... firefox...(pq eu havia reinstalado)
+apt-get clean
