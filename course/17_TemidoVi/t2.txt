@@ -1,0 +1,19 @@
+-i : modo de inserção
+-esc: modo de operação (command)
+-dd : apagar uma linha inteira 
+-yy and p: to copy and paste
+-yy and p: to copy and paste
+-yy and p: to copy and paste
+-:d cut and copy line
+-yy and p: to copy and paste
+-yy and p: to copy and paste
+-d: and p: to cut and paste (cut with d: and copy with p)  
+-x: para apagar caracters
+açlskkjdf 
+ZZ: to save the file
+
+
+
+
+
+
