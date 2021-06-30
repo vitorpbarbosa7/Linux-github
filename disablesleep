@@ -1,1 +1,5 @@
+mask - disable:
 sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
+
+unmask - enable:
+sudo systemctl unmask sleep.target suspend.target hibernate.target hybrid-sleep.target

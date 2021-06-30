@@ -1,0 +1,6 @@
+
+# put at the end of your bashrc
+
+LS_COLORS=$LS_COLORS:'di=0;35:' ; export LS_COLORS
+LS_COLORS="$LS_COLORS:ow=103;30;01"
+
