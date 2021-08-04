@@ -1,0 +1,1 @@
+alias fl='find * -size +20M >> .gitignore'
