@@ -1,0 +1,10 @@
+
+Try this:
+
+$ vim ~/.ssh/config
+
+Host github.com
+  Hostname ssh.github.com
+  Port 443
+
+https://stackoverflow.com/questions/7953806/github-ssh-via-public-wifi-port-22-blocked
